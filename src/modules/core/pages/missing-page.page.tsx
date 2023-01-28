@@ -1,9 +1,10 @@
 import React from "react";
+import { MissingComponent } from "../components/missing-component";
 
 export const MissingPagePage: React.FC = () => {
   return (
     <div>
-      <h1>Missing Page</h1>
+      <MissingComponent />
     </div>
   );
 };
