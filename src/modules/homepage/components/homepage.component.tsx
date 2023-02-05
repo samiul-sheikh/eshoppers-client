@@ -1,4 +1,5 @@
 import React from "react";
+import { BannerComponent } from "../../core/components/banner-component";
 import { HeaderComponent } from "../../core/components/header.component";
 import { NavbarComponent } from "../../core/components/navbar.component";
 
@@ -11,6 +12,7 @@ export const HomepageComponent: React.FC<HomepageComponentProps> = (
     <div>
       <HeaderComponent />
       <NavbarComponent />
+      <BannerComponent />
     </div>
   );
 };
