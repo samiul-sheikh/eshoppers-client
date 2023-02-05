@@ -16,10 +16,10 @@ export const HeaderComponent: React.FC = () => {
           </span>
           <input
             type="text"
-            className="w-full border border-primari border-r-0 pl-12 py-3 pr-3 rounded-1-md focus:outline-none"
+            className="w-full border border-primary border-r-0 pl-12 py-3 pr-3 rounded-1-md focus:outline-none"
             placeholder="Search"
           />
-          <button className="bg-primari border border-primari text-white px-8 rounder-r-md hover:bg-transparent hover:text-primari transition">
+          <button className="bg-primary border border-primary text-white px-8 rounder-r-md hover:bg-transparent hover:text-primary transition">
             Search
           </button>
         </div>
@@ -27,31 +27,31 @@ export const HeaderComponent: React.FC = () => {
         <div className="flex items-center space-x-4">
           <a
             href="/"
-            className="text-center text-gray-700 hover:text-primari transition relative"
+            className="text-center text-gray-700 hover:text-primary transition relative"
           >
             <div className="text-2xl">
               <FaHeart />
             </div>
             <div className="text-xs leading-3">Wishlist</div>
-            <span className="absolute right-1 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primari text-white text-xs">
+            <span className="absolute right-1 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">
               5
             </span>
           </a>
           <a
             href="/"
-            className="text-center text-gray-700 hover:text-primari transition relative"
+            className="text-center text-gray-700 hover:text-primary transition relative"
           >
             <div className="text-2xl">
               <FaCartPlus />
             </div>
             <div className="text-xs leading-3">Cart</div>
-            <span className="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primari text-white text-xs">
-              5
+            <span className="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">
+              2
             </span>
           </a>
           <a
             href="/"
-            className="text-center text-gray-700 hover:text-primari transition relative"
+            className="text-center text-gray-700 hover:text-primary transition relative"
           >
             <div className="text-2xl">
               <FaUser />

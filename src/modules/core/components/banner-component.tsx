@@ -21,7 +21,7 @@ export const BannerComponent: React.FC<BannerComponentProps> = (
         <div className="mt-12">
           <a
             href="/"
-            className="bg-primari border border-primari text-white px-8 py-3 font-medium rounded-md hover:bg-transparent hover:text-primari transition"
+            className="bg-primary border border-primary text-white px-8 py-3 font-medium rounded-md hover:bg-transparent hover:text-primary transition"
           >
             Shop Now
           </a>

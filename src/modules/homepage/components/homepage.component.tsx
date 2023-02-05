@@ -1,7 +1,5 @@
 import React from "react";
-import { BannerComponent } from "../../core/components/banner-component";
-import { HeaderComponent } from "../../core/components/header.component";
-import { NavbarComponent } from "../../core/components/navbar.component";
+import { HeaderSectionComponent } from "../../core/components/header-section.component";
 
 interface HomepageComponentProps {}
 
@@ -10,9 +8,7 @@ export const HomepageComponent: React.FC<HomepageComponentProps> = (
 ) => {
   return (
     <div>
-      <HeaderComponent />
-      <NavbarComponent />
-      <BannerComponent />
+      <HeaderSectionComponent />
     </div>
   );
 };

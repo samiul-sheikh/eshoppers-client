@@ -1,6 +1,11 @@
 import React from "react";
-import { FaBars, FaCar } from "react-icons/fa";
-import logo1 from "../../../assets/logo-1.png";
+import {
+  FaBars,
+  FaRegUser,
+  FaRegUserCircle,
+  FaShopify,
+  FaUser
+} from "react-icons/fa";
 
 interface NavbarComponentProps {}
 
@@ -11,7 +16,7 @@ export const NavbarComponent: React.FC<NavbarComponentProps> = (
     <div>
       <div className="nav bg-gray-800">
         <div className="container flex">
-          <div className="px-8 py-4 bg-primari flex items-center cursor-pointer relative group">
+          <div className="px-8 py-4 bg-primary flex items-center cursor-pointer relative group">
             <span className="text-white">
               <FaBars />
             </span>
@@ -21,7 +26,7 @@ export const NavbarComponent: React.FC<NavbarComponentProps> = (
                 href="/"
                 className="flex items-center px-6 py-3 hover:bg-gray-100 transition"
               >
-                <FaCar />
+                <FaUser />
                 {/* <img src={logo1} className="w-5 h-5 object-contain" /> */}
                 <span className="ml-6 text-gray-600 text-sm">Men</span>
               </a>
@@ -29,15 +34,22 @@ export const NavbarComponent: React.FC<NavbarComponentProps> = (
                 href="/"
                 className="flex items-center px-6 py-3 hover:bg-gray-100 transition"
               >
-                <FaCar />
+                <FaRegUser />
                 <span className="ml-6 text-gray-600 text-sm">Women</span>
               </a>
               <a
                 href="/"
                 className="flex items-center px-6 py-3 hover:bg-gray-100 transition"
               >
-                <FaCar />
+                <FaRegUserCircle />
                 <span className="ml-6 text-gray-600 text-sm">Baby</span>
+              </a>
+              <a
+                href="/"
+                className="flex items-center px-6 py-3 hover:bg-gray-100 transition"
+              >
+                <FaShopify />
+                <span className="ml-6 text-gray-600 text-sm">Others</span>
               </a>
             </div>
           </div>
