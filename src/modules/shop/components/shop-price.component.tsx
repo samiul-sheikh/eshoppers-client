@@ -14,13 +14,13 @@ export const ShopPriceComponent: React.FC<ShopPriceComponentProps> = (
         <input
           type="text"
           className="w-full border-gray-300 focus:border-primary focus:ring-0 px-3 text-gray-600 text-sm shadow-sm rounded"
-          placeholder="min"
+          placeholder="Min"
         />
         <span className="mx-3 text-gray-500">-</span>
         <input
           type="text"
           className="w-full border-gray-300 focus:border-primary focus:ring-0 px-3 text-gray-600 text-sm shadow-sm rounded"
-          placeholder="max"
+          placeholder="Max"
         />
       </div>
     </div>

@@ -18,7 +18,7 @@ export const ShopBrandComponent: React.FC<ShopBrandComponentProps> = (
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
           />
           <label className="text-gray-600 ml-3 cursor-pointer">Yellow</label>
-          <div className="ml-auto">(20)</div>
+          <div className="ml-auto text-gray-600 text-sm">(20)</div>
         </div>
         <div className="flex items-center">
           <input
@@ -27,7 +27,7 @@ export const ShopBrandComponent: React.FC<ShopBrandComponentProps> = (
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
           />
           <label className="text-gray-600 ml-3 cursor-pointer">Estacy</label>
-          <div className="ml-auto">(30)</div>
+          <div className="ml-auto text-gray-600 text-sm">(30)</div>
         </div>
         <div className="flex items-center">
           <input
@@ -36,7 +36,7 @@ export const ShopBrandComponent: React.FC<ShopBrandComponentProps> = (
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
           />
           <label className="text-gray-600 ml-3 cursor-pointer">Sara</label>
-          <div className="ml-auto">(50)</div>
+          <div className="ml-auto text-gray-600 text-sm">(50)</div>
         </div>
       </div>
     </div>

@@ -1,14 +1,16 @@
 import React from "react";
-import { ShopBrandComponent } from "./shop-brand.component";
 import { ShopCategoryComponent } from "./shop-category.component";
-import { ShopColorComponent } from "./shop-color.component";
+import { ShopBrandComponent } from "./shop-brand.component";
 import { ShopPriceComponent } from "./shop-price.component";
 import { ShopSizeComponent } from "./shop-size.component";
+import { ShopColorComponent } from "./shop-color.component";
+import { ShopHeaderComponent } from "./shop-header.component";
+import { ShopProductComponent } from "./shop-product.component";
 
-interface SidebarShopComponentProps {}
+interface ShopComponentProps {}
 
-export const SidebarShopComponent: React.FC<SidebarShopComponentProps> = (
-  props: SidebarShopComponentProps
+export const ShopComponent: React.FC<ShopComponentProps> = (
+  props: ShopComponentProps
 ) => {
   return (
     <div className="container grid grid-cols-4 gap-6 pt-4 pb-16 items-start">
@@ -20,6 +22,10 @@ export const SidebarShopComponent: React.FC<SidebarShopComponentProps> = (
           <ShopSizeComponent />
           <ShopColorComponent />
         </div>
+      </div>
+      <div className="col-span-3">
+        <ShopHeaderComponent />
+        <ShopProductComponent />
       </div>
     </div>
   );

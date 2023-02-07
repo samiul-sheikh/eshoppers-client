@@ -18,7 +18,7 @@ export const ShopCategoryComponent: React.FC<ShopCategoryComponentProps> = (
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
           />
           <label className="text-gray-600 ml-3 cursor-pointer">Men</label>
-          <div className="ml-auto">(30)</div>
+          <div className="ml-auto text-gray-600 text-sm">(30)</div>
         </div>
         <div className="flex items-center">
           <input
@@ -27,7 +27,7 @@ export const ShopCategoryComponent: React.FC<ShopCategoryComponentProps> = (
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
           />
           <label className="text-gray-600 ml-3 cursor-pointer">Women</label>
-          <div className="ml-auto">(20)</div>
+          <div className="ml-auto text-gray-600 text-sm">(20)</div>
         </div>
         <div className="flex items-center">
           <input
@@ -36,7 +36,7 @@ export const ShopCategoryComponent: React.FC<ShopCategoryComponentProps> = (
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
           />
           <label className="text-gray-600 ml-3 cursor-pointer">Baby</label>
-          <div className="ml-auto">(10)</div>
+          <div className="ml-auto text-gray-600 text-sm">(10)</div>
         </div>
       </div>
     </div>
