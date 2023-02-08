@@ -1,5 +1,5 @@
 import React from "react";
-import eshoppers from "../../../assets/eshoppers.png";
+import eshoppers from "../../../assets/logo/eshoppers.png";
 import { FaCartPlus, FaHeart, FaSearchengin, FaUser } from "react-icons/fa";
 
 export const HeaderComponent: React.FC = () => {

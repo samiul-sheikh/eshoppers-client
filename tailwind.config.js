@@ -31,7 +31,7 @@ module.exports = {
         // banner:
         //   "url('/src/assets/Fortune-Media-Blog-Image-Blog1-ContentMarketing-Banner-1920x891.jpg')"
         banner:
-          "url('/src/assets/thumbnail-d03b160238bf5409ce43fad0180d61da-1200x370.jpeg')"
+          "url('/src/assets/others/thumbnail-d03b160238bf5409ce43fad0180d61da-1200x370.jpeg')"
       }
     }
   },
