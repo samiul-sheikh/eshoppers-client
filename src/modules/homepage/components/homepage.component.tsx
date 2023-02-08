@@ -1,7 +1,13 @@
 import React from "react";
-import { HeaderSectionComponent } from "../../core/components/header-section.component";
+import { HeaderComponent } from "../../core/components/header.component";
+import { NavbarComponent } from "../../core/components/navbar.component";
+import { BannerComponent } from "./banner-component";
+import { FeatureAreaComponent } from "./feature-area.component";
 import { CategoryComponent } from "./category.component";
-import { ProductComponent } from "./product.component";
+import { TopNewArrivalComponent } from "./top-new-arrival-products.component";
+import { AdComponent } from "./ad.component";
+import { RecomendedProductsComponent } from "./recomended-products.component";
+import { FooterComponent } from "../../core/components/footer.component";
 
 interface HomepageComponentProps {}
 
@@ -10,9 +16,15 @@ export const HomepageComponent: React.FC<HomepageComponentProps> = (
 ) => {
   return (
     <div>
-      <HeaderSectionComponent />
+      <HeaderComponent />
+      <NavbarComponent />
+      <BannerComponent />
+      <FeatureAreaComponent />
       <CategoryComponent />
-      <ProductComponent />
+      <TopNewArrivalComponent />
+      <AdComponent />
+      <RecomendedProductsComponent />
+      <FooterComponent />
     </div>
   );
 };

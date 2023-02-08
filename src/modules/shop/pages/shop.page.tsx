@@ -1,5 +1,5 @@
 import React from "react";
-import { BreadcrumsComponent } from "../components/breadcrums.component";
+import { BreadcrumsComponent } from "../../core/components/breadcrums.component";
 import { ShopComponent } from "../components/shop.component";
 
 interface ShopPageProps {}

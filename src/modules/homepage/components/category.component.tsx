@@ -12,7 +12,7 @@ export const CategoryComponent: React.FC<CategoryComponentProps> = (
   props: CategoryComponentProps
 ) => {
   return (
-    <div className="container py-16">
+    <div className="container pb-16">
       <h2 className="text-2xl font-medium text-gray-800 uppercase mb-6">
         Shop By Category
       </h2>

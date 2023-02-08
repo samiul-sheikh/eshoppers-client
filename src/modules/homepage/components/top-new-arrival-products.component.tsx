@@ -1,10 +1,10 @@
 import React from "react";
 import { FaHeart, FaSearch, FaStar } from "react-icons/fa";
 import product1 from "../../../assets/products/men01.jpg";
-interface ProductComponentProps {}
+interface TopNewArrivalComponentProps {}
 
-export const ProductComponent: React.FC<ProductComponentProps> = (
-  props: ProductComponentProps
+export const TopNewArrivalComponent: React.FC<TopNewArrivalComponentProps> = (
+  props: TopNewArrivalComponentProps
 ) => {
   return (
     <div className="container pb-16">
