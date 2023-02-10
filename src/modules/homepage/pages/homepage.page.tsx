@@ -6,6 +6,7 @@ import { CopyrightComponent } from "../../core/components/copyright.component";
 import { ProductInformationComponent } from "../../product/components/product-information.component";
 import { LoginPage } from "../../authentication/pages/login.page";
 import { RegisterPage } from "../../authentication/pages/register.page";
+import { UserAccountPage } from "../../account/pages/user-account.page";
 
 interface HomepagePageProps {}
 
@@ -20,6 +21,7 @@ export const HomepagePage: React.FC<HomepagePageProps> = (
       <ProductInformationComponent />
       <LoginPage />
       <RegisterPage />
+      <UserAccountPage />
       <CopyrightComponent />
     </div>
   );
