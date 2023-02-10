@@ -4,6 +4,7 @@ import { ShopPage } from "../../shop/pages/shop.page";
 import { ProductDetailsPage } from "../../product/pages/product-details.page";
 import { CopyrightComponent } from "../../core/components/copyright.component";
 import { ProductInformationComponent } from "../../product/components/product-information.component";
+import { LoginPage } from "../../authentication/pages/login.page";
 
 interface HomepagePageProps {}
 
@@ -16,6 +17,7 @@ export const HomepagePage: React.FC<HomepagePageProps> = (
       <ShopPage />
       <ProductDetailsPage />
       <ProductInformationComponent />
+      <LoginPage />
       <CopyrightComponent />
     </div>
   );
