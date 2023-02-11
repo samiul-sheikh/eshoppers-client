@@ -7,6 +7,7 @@ import { ProductInformationComponent } from "../../product/components/product-in
 import { LoginPage } from "../../authentication/pages/login.page";
 import { RegisterPage } from "../../authentication/pages/register.page";
 import { UserAccountPage } from "../../account/pages/user-account.page";
+import { CheckoutPage } from "../../checkout/pages/checkout.page";
 
 interface HomepagePageProps {}
 
@@ -22,6 +23,7 @@ export const HomepagePage: React.FC<HomepagePageProps> = (
       <LoginPage />
       <RegisterPage />
       <UserAccountPage />
+      <CheckoutPage />
       <CopyrightComponent />
     </div>
   );
