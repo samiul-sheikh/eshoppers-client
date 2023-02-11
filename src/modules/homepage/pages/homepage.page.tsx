@@ -9,6 +9,7 @@ import { RegisterPage } from "../../authentication/pages/register.page";
 import { UserAccountPage } from "../../account/pages/user-account.page";
 import { CheckoutPage } from "../../checkout/pages/checkout.page";
 import { ProfileInformationPage } from "../../account/pages/profile-information.page";
+import { WishlistPage } from "../../account/pages/wishlist.page";
 
 interface HomepagePageProps {}
 
@@ -26,6 +27,7 @@ export const HomepagePage: React.FC<HomepagePageProps> = (
       <UserAccountPage />
       <CheckoutPage />
       <ProfileInformationPage />
+      <WishlistPage />
       <CopyrightComponent />
     </div>
   );
