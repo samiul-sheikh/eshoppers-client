@@ -10,6 +10,7 @@ import { UserAccountPage } from "../../account/pages/user-account.page";
 import { CheckoutPage } from "../../checkout/pages/checkout.page";
 import { ProfileInformationPage } from "../../account/pages/profile-information.page";
 import { WishlistPage } from "../../account/pages/wishlist.page";
+import { CartPage } from "../../cart/pages/cart.page";
 
 interface HomepagePageProps {}
 
@@ -28,6 +29,7 @@ export const HomepagePage: React.FC<HomepagePageProps> = (
       <CheckoutPage />
       <ProfileInformationPage />
       <WishlistPage />
+      <CartPage />
       <CopyrightComponent />
     </div>
   );
