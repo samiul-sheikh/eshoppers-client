@@ -80,7 +80,7 @@ export const LoginComponent: React.FC<LoginComponentProps> = (
         </div>
         <p className="mt-4 text-gray-600 text-center">
           Dont't have an account?
-          <a href="/" className="text-primary ml-2">
+          <a href="/register" className="text-primary ml-2">
             Register now
           </a>
         </p>

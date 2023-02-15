@@ -114,7 +114,7 @@ export const CartComponent: React.FC<CartComponentProps> = (
         </div>
 
         <a
-          href="/"
+          href="/checkout"
           className="bg-primary border border-primary text-white px-4 py-3 font-medium rounded-md uppercase hover:bg-transparent
          hover:text-primary transition text-sm w-full block text-center"
         >

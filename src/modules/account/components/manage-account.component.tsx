@@ -18,7 +18,7 @@ export const ManageAccountComponent: React.FC<ManageAccountComponentProps> = (
         manage account
       </a>
       <a
-        href="/"
+        href="/profile-information"
         className="relative hover:text-primary block capitalize transition"
       >
         profile information

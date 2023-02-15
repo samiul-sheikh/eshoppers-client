@@ -58,17 +58,29 @@ export const NavbarComponent: React.FC<NavbarComponentProps> = (
               <a href="/" className="text-gray-200 hover:text-white transition">
                 Home
               </a>
-              <a href="/" className="text-gray-200 hover:text-white transition">
+              <a
+                href="/shop"
+                className="text-gray-200 hover:text-white transition"
+              >
                 Shop
               </a>
-              <a href="/" className="text-gray-200 hover:text-white transition">
+              <a
+                href="/about"
+                className="text-gray-200 hover:text-white transition"
+              >
                 About us
               </a>
-              <a href="/" className="text-gray-200 hover:text-white transition">
+              <a
+                href="/contact"
+                className="text-gray-200 hover:text-white transition"
+              >
                 Contact us
               </a>
             </div>
-            <a href="/" className="text-gray-200 hover:text-white transition">
+            <a
+              href="/login"
+              className="text-gray-200 hover:text-white transition"
+            >
               Login/Register
             </a>
           </div>
