@@ -95,7 +95,7 @@ export const RegisterComponent: React.FC<RegisterComponentProps> = (
         </div>
         <p className="mt-4 text-gray-600 text-center">
           Already have an account?
-          <a href="/" className="text-primary ml-2">
+          <a href="/login" className="text-primary ml-2">
             Login Now
           </a>
         </p>

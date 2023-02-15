@@ -15,7 +15,7 @@ export const ProductDetailsComponent: React.FC<ProductDetailsComponentProps> = (
   props: ProductDetailsComponentProps
 ) => {
   return (
-    <div className="container mb-16 grid grid-cols-2 gap-6">
+    <div className="container my-16 grid grid-cols-2 gap-6">
       <div>
         <img src={product1} className="w-full" alt="productOne" />
         <div className="grid grid-cols-5 gap-4 mt-4">

@@ -69,13 +69,13 @@ export const TopNewArrivalComponent: React.FC<TopNewArrivalComponentProps> = (
             <img src={product1} alt="product-1" className="w-full" />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-cener justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
               <a
-                href="/"
+                href="/product-details"
                 className="text-white text-lg w-8 h-8 rounded-full bg-primary flex items-cener justify-center hover:bg-gray-800 transition"
               >
                 <FaSearch />
               </a>
               <a
-                href="/"
+                href="/wishlist"
                 className="text-white text-lg w-8 h-8 rounded-full bg-primary flex items-cener justify-center hover:bg-gray-800 transition"
               >
                 <FaHeart />
@@ -89,7 +89,7 @@ export const TopNewArrivalComponent: React.FC<TopNewArrivalComponentProps> = (
             </div>
           </div>
           <div className="pt-4 pb-3 px-4">
-            <a href="/">
+            <a href="/product-details">
               <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
                 Mens Jacket
               </h4>
@@ -110,7 +110,7 @@ export const TopNewArrivalComponent: React.FC<TopNewArrivalComponentProps> = (
             </div>
           </div>
           <a
-            href="/"
+            href="/cart"
             className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
           >
             Add to cart

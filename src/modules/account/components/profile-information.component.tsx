@@ -20,7 +20,7 @@ export const ProfileInformationComponent: React.FC<
           <PaymentMethodComponent />
           <div className="space-y-1 pl-8 pt-4">
             <a
-              href="/"
+              href="/wishlist"
               className="relative hover:text-primary block font-medium capitalize transition"
             >
               <span className="absolute -left-8 top-1 text-base">
@@ -31,7 +31,7 @@ export const ProfileInformationComponent: React.FC<
           </div>
           <div className="space-y-1 pl-8 pt-4">
             <a
-              href="/"
+              href="/login"
               className="relative hover:text-primary block font-medium capitalize transition"
             >
               <span className="absolute -left-8 top-1 text-base">
