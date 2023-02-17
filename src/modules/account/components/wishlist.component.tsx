@@ -1,10 +1,7 @@
 import React from "react";
-import { FaHeart, FaPowerOff, FaTrash } from "react-icons/fa";
-import { ManageAccountComponent } from "./manage-account.component";
-import { OrderHistoryComponent } from "./order-history.component";
-import { PaymentMethodComponent } from "./payment-methods.component";
-import { UserNameComponent } from "./user-name.component";
+import { FaTrash } from "react-icons/fa";
 import product1 from "../../../assets/products/men01.jpg";
+import { AccountSidebarComponent } from "./account-sidebar.component";
 
 interface WishlistComponentProps {}
 
@@ -14,34 +11,7 @@ export const WishlistComponent: React.FC<WishlistComponentProps> = (
   return (
     <div className="container grid grid-cols-12 items-start gap-6 pt-4 pb-16">
       <div className="col-span-3">
-        <UserNameComponent />
-        <div className="mt-6 bg-white shadow rounded p-4 divide-y divide-gray-200 space-y-4 text-gray-600">
-          <ManageAccountComponent />
-          <OrderHistoryComponent />
-          <PaymentMethodComponent />
-          <div className="space-y-1 pl-8 pt-4">
-            <a
-              href="/"
-              className="relative hover:text-primary block font-medium capitalize transition"
-            >
-              <span className="absolute -left-8 top-1 text-base">
-                <FaHeart />
-              </span>
-              my wishlist
-            </a>
-          </div>
-          <div className="space-y-1 pl-8 pt-4">
-            <a
-              href="/"
-              className="relative hover:text-primary block font-medium capitalize transition"
-            >
-              <span className="absolute -left-8 top-1 text-base">
-                <FaPowerOff />
-              </span>
-              Logout
-            </a>
-          </div>
-        </div>
+        <AccountSidebarComponent />
       </div>
       <div className="col-span-9 space-y-4">
         <div className="flex items-center justify-between gap-6 p-4 border border-gray-200 rounded">

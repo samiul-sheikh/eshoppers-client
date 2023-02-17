@@ -1,9 +1,5 @@
 import React from "react";
-import { FaHeart, FaPowerOff } from "react-icons/fa";
-import { ManageAccountComponent } from "./manage-account.component";
-import { OrderHistoryComponent } from "./order-history.component";
-import { PaymentMethodComponent } from "./payment-methods.component";
-import { UserNameComponent } from "./user-name.component";
+import { AccountSidebarComponent } from "./account-sidebar.component";
 
 interface ProfileInformationComponentProps {}
 
@@ -13,34 +9,7 @@ export const ProfileInformationComponent: React.FC<
   return (
     <div className="container grid grid-cols-12 items-start gap-6 pt-4 pb-16">
       <div className="col-span-3">
-        <UserNameComponent />
-        <div className="mt-6 bg-white shadow rounded p-4 divide-y divide-gray-200 space-y-4 text-gray-600">
-          <ManageAccountComponent />
-          <OrderHistoryComponent />
-          <PaymentMethodComponent />
-          <div className="space-y-1 pl-8 pt-4">
-            <a
-              href="/wishlist"
-              className="relative hover:text-primary block font-medium capitalize transition"
-            >
-              <span className="absolute -left-8 top-1 text-base">
-                <FaHeart />
-              </span>
-              my wishlist
-            </a>
-          </div>
-          <div className="space-y-1 pl-8 pt-4">
-            <a
-              href="/login"
-              className="relative hover:text-primary block font-medium capitalize transition"
-            >
-              <span className="absolute -left-8 top-1 text-base">
-                <FaPowerOff />
-              </span>
-              Logout
-            </a>
-          </div>
-        </div>
+        <AccountSidebarComponent />
       </div>
       <div className="col-span-9 shadow rounded px-6 pt-5 pb-7">
         <h4 className="text-lg font-medium capitalize mb-4">
@@ -83,7 +52,7 @@ export const ProfileInformationComponent: React.FC<
               <select
                 name=""
                 id=""
-                className=" border border-gray-300 focus:ring-0"
+                className="w-full border border-gray-300 focus:ring-0"
               >
                 <option value="">Male</option>
                 <option value="">Female</option>
