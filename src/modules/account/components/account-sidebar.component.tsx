@@ -34,13 +34,13 @@ export const AccountSidebarComponent: React.FC<AccountSidebarComponentProps> = (
             profile information
           </a>
           <a
-            href="/"
+            href="/manage-address"
             className="relative hover:text-primary block capitalize transition"
           >
             manage address
           </a>
           <a
-            href="/"
+            href="/change-password"
             className="relative hover:text-primary block capitalize transition"
           >
             change password
@@ -48,7 +48,7 @@ export const AccountSidebarComponent: React.FC<AccountSidebarComponentProps> = (
         </div>
         <div className="space-y-1 pl-8 pt-4">
           <a
-            href="/"
+            href="/order-history"
             className="relative hover:text-primary block font-medium capitalize transition"
           >
             <span className="absolute -left-8 top-1 text-base">
@@ -57,19 +57,19 @@ export const AccountSidebarComponent: React.FC<AccountSidebarComponentProps> = (
             my order history
           </a>
           <a
-            href="/"
+            href="/my-returns"
             className="relative hover:text-primary block capitalize transition"
           >
             my returns
           </a>
           <a
-            href="/"
+            href="/my-cancellations"
             className="relative hover:text-primary block capitalize transition"
           >
-            my cancelletion
+            my cancellations
           </a>
           <a
-            href="/"
+            href="/my-reviews"
             className="relative hover:text-primary block capitalize transition"
           >
             my reviews
@@ -77,7 +77,7 @@ export const AccountSidebarComponent: React.FC<AccountSidebarComponentProps> = (
         </div>
         <div className="space-y-1 pl-8 pt-4">
           <a
-            href="/"
+            href="/payment-method"
             className="relative hover:text-primary block font-medium capitalize transition"
           >
             <span className="absolute -left-8 top-1 text-base">
@@ -86,7 +86,7 @@ export const AccountSidebarComponent: React.FC<AccountSidebarComponentProps> = (
             payment methods
           </a>
           <a
-            href="/"
+            href="/voucher"
             className="relative hover:text-primary block capitalize transition"
           >
             voucher

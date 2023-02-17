@@ -65,7 +65,7 @@ export const OrderSummaryComponent: React.FC<OrderSummaryComponentProps> = (
         </label>
       </div>
       <a
-        href="/"
+        href="/order-history"
         className="block w-full py-2 text-center text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium"
       >
         place order
