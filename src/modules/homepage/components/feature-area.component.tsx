@@ -8,9 +8,8 @@ export const FeatureAreaComponent: React.FC<FeatureAreaComponentProps> = (
 ) => {
   return (
     <div className="container py-16">
-      <div className="w-10/12 grid grid-cols-3 gap-6 mx-auto justify-center">
-        <div className="border border-primary rounded-sm px-3 py-6 flex justify-cenetr items-center gap-5">
-          {/* <img src={logo1} className="w-10 h-10 object-contain" alt="feature-1"/> */}
+      <div className="lg:w-10/12 grid md:grid-cols-3 gap-3 lg:gap-6 mx-auto justify-center">
+        <div className="border border-primary rounded-sm px-8 lg:px-3 lg:py-6 py-4 flex justify-cenetr items-center gap-5">
           <div className="text-primary text-3xl">
             <FaShopify />
           </div>
@@ -19,7 +18,7 @@ export const FeatureAreaComponent: React.FC<FeatureAreaComponentProps> = (
             <p className="text-gray-500 text-sm">Order over $100</p>
           </div>
         </div>
-        <div className="border border-primary rounded-sm px-3 py-6 flex justify-cenetr items-center gap-5">
+        <div className="border border-primary rounded-sm px-8 lg:px-3 lg:py-6 py-4 flex justify-cenetr items-center gap-5">
           <div className="text-primary text-3xl">
             <FaMoneyBill />
           </div>
@@ -28,7 +27,7 @@ export const FeatureAreaComponent: React.FC<FeatureAreaComponentProps> = (
             <p className="text-gray-500 text-sm">30 days money return</p>
           </div>
         </div>
-        <div className="border border-primary rounded-sm px-3 py-6 flex justify-cenetr items-center gap-5">
+        <div className="border border-primary rounded-sm px-8 lg:px-3 lg:py-6 py-4 flex justify-cenetr items-center gap-5">
           <div className="text-primary text-3xl">
             <FaPhone />
           </div>

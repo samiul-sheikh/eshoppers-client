@@ -13,15 +13,15 @@ export const CategoryComponent: React.FC<CategoryComponentProps> = (
 ) => {
   return (
     <div className="container pb-16">
-      <h2 className="text-2xl font-medium text-gray-800 uppercase mb-6">
+      <h2 className="text-2xl md:text-3xl font-medium text-gray-800 uppercase mb-6">
         Shop By Category
       </h2>
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3">
         <div className="relative rounded-sm overflow-hidden group">
           <img src={men} alt="men" className="w-full" />
           <a
             href="/"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-50 transition"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium tracking-wide group-hover:bg-opacity-50 transition"
           >
             Men
           </a>
@@ -30,7 +30,7 @@ export const CategoryComponent: React.FC<CategoryComponentProps> = (
           <img src={women} alt="men" className="w-full" />
           <a
             href="/"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-50 transition"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium tracking-wide group-hover:bg-opacity-50 transition"
           >
             Women
           </a>
@@ -39,7 +39,7 @@ export const CategoryComponent: React.FC<CategoryComponentProps> = (
           <img src={baby} alt="men" className="w-full" />
           <a
             href="/"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-50 transition"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium tracking-wide group-hover:bg-opacity-50 transition"
           >
             Baby
           </a>
@@ -48,7 +48,7 @@ export const CategoryComponent: React.FC<CategoryComponentProps> = (
           <img src={sunglass} alt="men" className="w-full" />
           <a
             href="/"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-50 transition"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium tracking-wide group-hover:bg-opacity-50 transition"
           >
             Sunglass
           </a>
@@ -57,7 +57,7 @@ export const CategoryComponent: React.FC<CategoryComponentProps> = (
           <img src={belt} alt="men" className="w-full" />
           <a
             href="/"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-50 transition"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium tracking-wide group-hover:bg-opacity-50 transition"
           >
             Belt
           </a>
@@ -66,7 +66,7 @@ export const CategoryComponent: React.FC<CategoryComponentProps> = (
           <img src={bag} alt="men" className="w-full" />
           <a
             href="/"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-50 transition"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium tracking-wide group-hover:bg-opacity-50 transition"
           >
             Bag
           </a>

@@ -6,8 +6,10 @@ export const MissingComponent: React.FC<MissingComponentProps> = (
   props: MissingComponentProps
 ) => {
   return (
-    <div>
-      <h1>Missing Page</h1>
+    <div className="container py-16">
+      <h1 className="text-center text-gray-600">
+        Something went wrong! page not found !!
+      </h1>
     </div>
   );
 };
