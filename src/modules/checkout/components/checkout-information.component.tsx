@@ -9,7 +9,7 @@ export const CheckoutInformationComponent: React.FC<
     <div>
       <h3 className="text-lg font-medium capitalize mb-4">Checkout</h3>
       <div className="space-y-4">
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 gap-4">
           <div>
             <label className="text-gray-600 mb-2 block">
               First Name <span className="text-primary">*</span>

@@ -7,14 +7,14 @@ export const ManageAddressComponent: React.FC<ManageAddressComponentProps> = (
   props: ManageAddressComponentProps
 ) => {
   return (
-    <div className="container grid grid-cols-12 items-start gap-6 pt-4 pb-16">
+    <div className="container lg:grid grid-cols-12 items-start gap-6 pt-4 pb-16">
       <div className="col-span-3">
         <AccountSidebarComponent />
       </div>
-      <div className="col-span-9 shadow rounded px-6 pt-5 pb-7">
+      <div className="col-span-9 shadow rounded px-6 pt-5 pb-7 mt-6 lg:mt-0">
         <h4 className="text-lg font-medium capitalize mb-4">Manage Address</h4>
         <div className="space-y-4">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <label htmlFor="" className="text-gray-600 mb-2 block">
                 Full Name
@@ -22,7 +22,7 @@ export const ManageAddressComponent: React.FC<ManageAddressComponentProps> = (
               <input
                 type="text"
                 className="input-box"
-                placeholder="enter full name"
+                placeholder="Samiul Sheikh"
               />
             </div>
             <div>
@@ -32,11 +32,11 @@ export const ManageAddressComponent: React.FC<ManageAddressComponentProps> = (
               <input
                 type="text"
                 className="input-box"
-                placeholder="enter phone number"
+                placeholder="01700000000"
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <label htmlFor="" className="text-gray-600 mb-2 block">
                 Country
@@ -66,7 +66,7 @@ export const ManageAddressComponent: React.FC<ManageAddressComponentProps> = (
               </select>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <label htmlFor="" className="text-gray-600 mb-2 block">
                 City
@@ -96,17 +96,11 @@ export const ManageAddressComponent: React.FC<ManageAddressComponentProps> = (
               </select>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <label htmlFor="" className="text-gray-600 mb-2 block">
-                Address
-              </label>
-              <input
-                type="text"
-                className="input-box"
-                placeholder="Paris Road"
-              />
-            </div>
+          <div>
+            <label htmlFor="" className="text-gray-600 mb-2 block">
+              Address
+            </label>
+            <input type="text" className="input-box" placeholder="Paris Road" />
           </div>
           <div className="mt-4">
             <button

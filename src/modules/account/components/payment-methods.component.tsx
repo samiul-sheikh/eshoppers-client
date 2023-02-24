@@ -8,11 +8,11 @@ export const PaymentMethodComponent: React.FC<PaymentMethodComponentProps> = (
   props: PaymentMethodComponentProps
 ) => {
   return (
-    <div className="container grid grid-cols-12 items-start gap-6 pt-4 pb-16">
+    <div className="container lg:grid grid-cols-12 items-start gap-6 pt-4 pb-16">
       <div className="col-span-3">
         <AccountSidebarComponent />
       </div>
-      <div className="col-span-9 space-y-4">
+      <div className="col-span-9 space-y-4 mt-6 lg:mt-0">
         <div className="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
           <div className="w-32 flex-shrink-0">
             <img src={product1} className="w-full" alt="product1" />

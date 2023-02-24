@@ -1,5 +1,6 @@
 import React from "react";
 import { HeaderComponent } from "../../core/components/header.component";
+import { AccountBreadcrumbsComponent } from "../components/account-breadcrumbs.component";
 import { PaymentMethodComponent } from "../components/payment-methods.component";
 import { FooterComponent } from "../../core/components/footer.component";
 
@@ -11,6 +12,7 @@ export const PaymentMethodPage: React.FC<PaymentMethodPageProps> = (
   return (
     <div>
       <HeaderComponent />
+      <AccountBreadcrumbsComponent />
       <PaymentMethodComponent />
       <FooterComponent />
     </div>

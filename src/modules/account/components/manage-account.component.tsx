@@ -6,7 +6,7 @@ export const ManageAccountComponent: React.FC<ManageAccountComponentProps> = (
   props: ManageAccountComponentProps
 ) => {
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="grid md:grid-cols-3 gap-4 mt-6 lg:mt-0">
       <div className="shadow rounded bg-white px-4 pt-6 pb-8">
         <div className="flex justify-between items-center mb-4">
           <h3 className="font-medium text-gray-800 text-lg">

@@ -7,16 +7,16 @@ export const ProfileInformationComponent: React.FC<
   ProfileInformationComponentProps
 > = (props: ProfileInformationComponentProps) => {
   return (
-    <div className="container grid grid-cols-12 items-start gap-6 pt-4 pb-16">
+    <div className="container lg:grid grid-cols-12 items-start gap-6 pt-4 pb-16">
       <div className="col-span-3">
         <AccountSidebarComponent />
       </div>
-      <div className="col-span-9 shadow rounded px-6 pt-5 pb-7">
+      <div className="col-span-9 shadow rounded px-6 pt-5 pb-7 mt-6 lg:mt-0">
         <h4 className="text-lg font-medium capitalize mb-4">
           Profile Information
         </h4>
         <div className="space-y-4">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <label htmlFor="" className="text-gray-600 mb-2 block">
                 First Name
@@ -38,7 +38,7 @@ export const ProfileInformationComponent: React.FC<
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <label htmlFor="" className="text-gray-600 mb-2 block">
                 Birthday
@@ -59,7 +59,7 @@ export const ProfileInformationComponent: React.FC<
               </select>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <label htmlFor="" className="text-gray-600 mb-2 block">
                 Email Address

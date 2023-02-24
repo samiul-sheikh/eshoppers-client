@@ -8,7 +8,7 @@ export const UserAccountComponent: React.FC<UserAccountComponentProps> = (
   props: UserAccountComponentProps
 ) => {
   return (
-    <div className="container grid grid-cols-12 items-start gap-6 pt-4 pb-16">
+    <div className="container lg:grid grid-cols-12 items-start gap-6 pt-4 pb-16">
       <div className="col-span-3">
         <AccountSidebarComponent />
       </div>

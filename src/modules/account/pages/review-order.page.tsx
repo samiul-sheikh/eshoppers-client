@@ -1,5 +1,6 @@
 import React from "react";
 import { HeaderComponent } from "../../core/components/header.component";
+import { AccountBreadcrumbsComponent } from "../components/account-breadcrumbs.component";
 import { ReviewOrderComponent } from "../components/review-order.component";
 import { FooterComponent } from "../../core/components/footer.component";
 
@@ -11,6 +12,7 @@ export const ReviewOrderPage: React.FC<ReviewOrderPageProps> = (
   return (
     <div>
       <HeaderComponent />
+      <AccountBreadcrumbsComponent />
       <ReviewOrderComponent />
       <FooterComponent />
     </div>
