@@ -7,7 +7,10 @@ export const ShopHeaderComponent: React.FC<ShopHeaderComponentProps> = (
   props: ShopHeaderComponentProps
 ) => {
   return (
-    <div className="flex items-center mb-4">
+    <div className="mb-4 flex items-center">
+      <button className="bg-primary border border-primary text-white px-10 py-3 font-medium rounded uppercase hover:bg-transparent hover:text-primary transition lg:hidden text-sm mr-3 focus:outline-none">
+        Filter
+      </button>
       <select className="w-44 text-sm text-gray-600 px-4 py-3 border-gray-300 shadow-sm rounded focus:ring-primary focus:border-primary">
         <option>Default Sorting</option>
         <option>Price low-high</option>

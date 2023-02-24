@@ -14,28 +14,43 @@ export const ShopBrandComponent: React.FC<ShopBrandComponentProps> = (
         <div className="flex items-center">
           <input
             type="checkbox"
-            id="cat-1"
+            id="brand-1-1"
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
           />
-          <label className="text-gray-600 ml-3 cursor-pointer">Yellow</label>
+          <label
+            htmlFor="brand-1"
+            className="text-gray-600 ml-3 cursor-pointer"
+          >
+            Yellow
+          </label>
           <div className="ml-auto text-gray-600 text-sm">(20)</div>
         </div>
         <div className="flex items-center">
           <input
             type="checkbox"
-            id="cat-2"
+            id="brand-2"
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
           />
-          <label className="text-gray-600 ml-3 cursor-pointer">Estacy</label>
+          <label
+            htmlFor="brand-2"
+            className="text-gray-600 ml-3 cursor-pointer"
+          >
+            Estacy
+          </label>
           <div className="ml-auto text-gray-600 text-sm">(30)</div>
         </div>
         <div className="flex items-center">
           <input
             type="checkbox"
-            id="cat-3"
+            id="brand-3"
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
           />
-          <label className="text-gray-600 ml-3 cursor-pointer">Sara</label>
+          <label
+            htmlFor="brand-3"
+            className="text-gray-600 ml-3 cursor-pointer"
+          >
+            Sara
+          </label>
           <div className="ml-auto text-gray-600 text-sm">(50)</div>
         </div>
       </div>
