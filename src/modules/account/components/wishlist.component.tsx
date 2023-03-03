@@ -29,7 +29,8 @@ export const WishlistComponent: React.FC<WishlistComponentProps> = (
           <div className="text-primary text-lg font-semibold">$300</div>
           <a
             href="/cart"
-            className="ml-auto md:ml-0 block px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium"
+            className="ml-auto md:ml-0 block px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded 
+            hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium"
           >
             Add to cart
           </a>

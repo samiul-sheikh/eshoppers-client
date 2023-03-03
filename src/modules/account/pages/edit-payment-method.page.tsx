@@ -1,19 +1,19 @@
 import React from "react";
 import { HeaderComponent } from "../../core/components/header.component";
 import { AccountBreadcrumbsComponent } from "../components/account-breadcrumbs.component";
-import { PaymentMethodComponent } from "../components/payment-method.component";
+import { EditPaymentMethodComponent } from "../components/edit-payment-method.component";
 import { FooterComponent } from "../../core/components/footer.component";
 
-interface PaymentMethodPageProps {}
+interface EditPaymentMethodPageProps {}
 
-export const PaymentMethodPage: React.FC<PaymentMethodPageProps> = (
-  props: PaymentMethodPageProps
+export const EditPaymentMethodPage: React.FC<EditPaymentMethodPageProps> = (
+  props: EditPaymentMethodPageProps
 ) => {
   return (
-    <div>
+    <div className="">
       <HeaderComponent />
       <AccountBreadcrumbsComponent />
-      <PaymentMethodComponent />
+      <EditPaymentMethodComponent />
       <FooterComponent />
     </div>
   );
