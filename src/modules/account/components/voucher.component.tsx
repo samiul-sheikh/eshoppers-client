@@ -12,7 +12,9 @@ export const VoucherComponent: React.FC<VoucherComponentProps> = (
         <AccountSidebarComponent />
       </div>
       <div className="col-span-9 shadow rounded px-6 pt-5 pb-7 mt-6 lg:mt-0">
-        <h4 className="text-lg font-medium capitalize mb-4">Comming Soon</h4>
+        <h4 className="text-lg text-gray-600 font-medium mb-4">
+          There is no vouchers yet !!
+        </h4>
       </div>
     </div>
   );

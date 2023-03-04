@@ -16,6 +16,7 @@ import { OrderHistoryPage } from "../modules/account/pages/order-history.page";
 import { ReturnOrderPage } from "../modules/account/pages/return-order.page";
 import { CancelOrderPage } from "../modules/account/pages/cancel-order.page";
 import { ReviewOrderPage } from "../modules/account/pages/review-order.page";
+import { WriteEditReviewPage } from "../modules/account/pages/write-edit-review.page";
 import { PaymentMethodPage } from "../modules/account/pages/payment-method.page";
 import { EditPaymentMethodPage } from "../modules/account/pages/edit-payment-method.page";
 import { VoucherPage } from "../modules/account/pages/voucher.page";
@@ -42,6 +43,7 @@ export const AppRoute: React.FC = () => {
       <Route path="/my-returns" element={<ReturnOrderPage />} />
       <Route path="/my-cancellations" element={<CancelOrderPage />} />
       <Route path="/my-reviews" element={<ReviewOrderPage />} />
+      <Route path="/write-edit-review" element={<WriteEditReviewPage />} />
       <Route path="/payment-method" element={<PaymentMethodPage />} />
       <Route path="/edit-payment-method" element={<EditPaymentMethodPage />} />
       <Route path="/voucher" element={<VoucherPage />} />
