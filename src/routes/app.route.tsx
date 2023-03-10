@@ -13,6 +13,7 @@ import { ProfileInformationPage } from "../modules/account/pages/profile-informa
 import { ManageAddressPage } from "../modules/account/pages/manage-address.page";
 import { ChangePasswordPage } from "../modules/account/pages/change-password.page";
 import { OrderHistoryPage } from "../modules/account/pages/order-history.page";
+import { OrderDetailsPage } from "../modules/account/pages/order-details.page";
 import { ReturnOrderPage } from "../modules/account/pages/return-order.page";
 import { CancelOrderPage } from "../modules/account/pages/cancel-order.page";
 import { ReviewOrderPage } from "../modules/account/pages/review-order.page";
@@ -40,6 +41,7 @@ export const AppRoute: React.FC = () => {
       <Route path="/manage-address" element={<ManageAddressPage />} />
       <Route path="/change-password" element={<ChangePasswordPage />} />
       <Route path="/order-history" element={<OrderHistoryPage />} />
+      <Route path="/order-details" element={<OrderDetailsPage />} />
       <Route path="/my-returns" element={<ReturnOrderPage />} />
       <Route path="/my-cancellations" element={<CancelOrderPage />} />
       <Route path="/my-reviews" element={<ReviewOrderPage />} />
