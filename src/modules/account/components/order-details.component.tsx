@@ -1,5 +1,6 @@
 import React from "react";
 import { AccountSidebarComponent } from "./account-sidebar.component";
+import product1 from "../../../assets/products/men01.jpg";
 
 interface OrderDetailsComponentProps {}
 
@@ -125,7 +126,69 @@ export const OrderDetailsComponent: React.FC<OrderDetailsComponentProps> = (
             </li>
           </ul>
         </div>
-        <div className=""></div>
+        <div className="flex items-center md:justify-between gap-4 md:gap-6 p-4 flex-wrap md:flex-nowrap">
+          <div className="w-10 flex-shrink-0">
+            <img src={product1} className="w-full" alt="wishlistProduct1" />
+          </div>
+          <div>
+            <h2 className="text-gray-600 font-semibold">Mens Jacket</h2>
+            <p className="text-gray-500 text-xs">No warrenty available</p>
+          </div>
+          <div>
+            <p className="text-gray-600 font-semibold">$100</p>
+          </div>
+          <div>
+            <p className="text-gray-600 font-semibold">Qut: 4</p>
+          </div>
+          <div>
+            <a href="/my-returns" className="text-primary font-semibold">
+              Return
+            </a>
+            <p className="text-gray-600">Untill 14 Nov 2023</p>
+          </div>
+        </div>
+        <div className="grid md:grid-cols-3 gap-4 mt-6 lg:mt-0">
+          <div className="shadow rounded bg-white px-4 pt-6 pb-8">
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-gray-600 font-semibold">Shipping Address</h3>
+            </div>
+            <div className="space-y-1">
+              <h4 className="text-gray-600 font-semibold">Samiul Sheikh</h4>
+              <p className="text-gray-800">
+                House: 14 Road: 25, Block: D, Mirpur-10, Dhaka, Bangladesh
+              </p>
+              <p className="text-gray-800">01784097404</p>
+            </div>
+          </div>
+          <div className="shadow rounded bg-white px-4 pt-6 pb-8">
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-gray-600 font-semibold">Billing Address</h3>
+            </div>
+            <div className="space-y-1">
+              <h4 className="text-gray-600 font-semibold">Payload IT</h4>
+              <p className="text-gray-800">
+                House: 14 Road: 25, Block: D, Mirpur-10, Dhaka, Bangladesh
+              </p>
+              <p className="text-gray-800">01784097404</p>
+            </div>
+          </div>
+          <div className="shadow rounded bg-white px-4 pt-6 pb-8">
+            <h3 className="text-gray-600 font-semibold">Total Summary</h3>
+            <div className="flex justify-between text-gray-800 font-medium pt-3">
+              <p>Subtotal</p>
+              <p>$400</p>
+            </div>
+            <div className="flex justify-between border-b border-gray-200 text-gray-800 font-medium py-3">
+              <p>Shipping Fee</p>
+              <p>$20</p>
+            </div>
+            <div className="flex justify-between text-gray-600 font-semibold py-3">
+              <p>Total</p>
+              <p>$420</p>
+            </div>
+            <p className="text-gray-600 text-xs">Paid by Cash on Delivery</p>
+          </div>
+        </div>
       </div>
     </div>
   );
