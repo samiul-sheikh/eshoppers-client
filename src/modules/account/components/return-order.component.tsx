@@ -32,7 +32,7 @@ export const ReturnOrderComponent: React.FC<ReturnOrderComponentProps> = (
             <p className="text-green-500">Successful</p>
           </div>
           <a
-            href="/order-details"
+            href="/return-order-details"
             className="ml-auto md:ml-0 block px-6 py-2 text-center text-sm text-primary border border-primary rounded 
           hover:bg-primary hover:text-white transition font-roboto font-medium"
           >
@@ -58,7 +58,7 @@ export const ReturnOrderComponent: React.FC<ReturnOrderComponentProps> = (
             <p className="text-yellow-500">Processing</p>
           </div>
           <a
-            href="/order-details"
+            href="/return-order-details"
             className="ml-auto md:ml-0 block px-6 py-2 text-center text-sm text-primary border border-primary rounded 
           hover:bg-primary hover:text-white transition font-roboto font-medium"
           >

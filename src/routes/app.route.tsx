@@ -15,6 +15,7 @@ import { ChangePasswordPage } from "../modules/account/pages/change-password.pag
 import { OrderHistoryPage } from "../modules/account/pages/order-history.page";
 import { OrderDetailsPage } from "../modules/account/pages/order-details.page";
 import { ReturnOrderPage } from "../modules/account/pages/return-order.page";
+import { ReturnOrderDetailsPage } from "../modules/account/pages/return-order-details.page";
 import { CancelOrderPage } from "../modules/account/pages/cancel-order.page";
 import { ReviewOrderPage } from "../modules/account/pages/review-order.page";
 import { WriteEditReviewPage } from "../modules/account/pages/write-edit-review.page";
@@ -43,6 +44,10 @@ export const AppRoute: React.FC = () => {
       <Route path="/order-history" element={<OrderHistoryPage />} />
       <Route path="/order-details" element={<OrderDetailsPage />} />
       <Route path="/my-returns" element={<ReturnOrderPage />} />
+      <Route
+        path="/return-order-details"
+        element={<ReturnOrderDetailsPage />}
+      />
       <Route path="/my-cancellations" element={<CancelOrderPage />} />
       <Route path="/my-reviews" element={<ReviewOrderPage />} />
       <Route path="/write-edit-review" element={<WriteEditReviewPage />} />
