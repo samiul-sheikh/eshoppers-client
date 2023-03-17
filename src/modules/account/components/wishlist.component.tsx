@@ -15,7 +15,7 @@ export const WishlistComponent: React.FC<WishlistComponentProps> = (
       </div>
       <div className="col-span-9 space-y-4 mt-6 lg:mt-0">
         <div className="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
-          <div className="w-28 flex-shrink-0">
+          <div className="w-10 flex-shrink-0">
             <img src={product1} className="w-full" alt="wishlistProduct1" />
           </div>
           <div className="w-full md:w-1/3">
@@ -39,7 +39,7 @@ export const WishlistComponent: React.FC<WishlistComponentProps> = (
           </div>
         </div>
         <div className="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
-          <div className="w-28 flex-shrink-0">
+          <div className="w-10 flex-shrink-0">
             <img src={product1} className="w-full" alt="wishlistProduct1" />
           </div>
           <div className="w-full md:w-1/3">

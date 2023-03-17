@@ -25,6 +25,10 @@ import { VoucherPage } from "../modules/account/pages/voucher.page";
 import { SingleProductPage } from "../modules/product/pages/single-product.page";
 import { CheckoutPage } from "../modules/checkout/pages/checkout.page";
 import { MissingPagePage } from "../modules/core/pages/missing-page.page";
+import { AdminPanelPage } from "../modules/account/pages/admin-panel.page";
+import { AddProductPage } from "../modules/account/pages/add-product.page";
+import { AllProductsPage } from "../modules/account/pages/all-products.page";
+import { UserListPage } from "../modules/account/pages/user-list.page";
 
 export const AppRoute: React.FC = () => {
   return (
@@ -57,6 +61,10 @@ export const AppRoute: React.FC = () => {
       <Route path="/product-details" element={<SingleProductPage />} />
       <Route path="/checkout" element={<CheckoutPage />} />
       <Route path="*" element={<MissingPagePage />} />
+      <Route path="/admin-panel" element={<AdminPanelPage />} />
+      <Route path="/add-product" element={<AddProductPage />} />
+      <Route path="/all-products" element={<AllProductsPage />} />
+      <Route path="/user-list" element={<UserListPage />} />
     </Routes>
   );
 };

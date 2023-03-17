@@ -16,10 +16,9 @@ export const CartComponent: React.FC<CartComponentProps> = (
           </p>
           <p className="text-gray-600 text-center">Total</p>
         </div>
-
         <div className="space-y-4">
           <div className="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
-            <div className="w-32 flex-shrink-0">
+            <div className="w-10 flex-shrink-0">
               <img src={product1} className="w-full" alt="product1" />
             </div>
             <div className="md:w-1/3 w-full">
@@ -46,7 +45,7 @@ export const CartComponent: React.FC<CartComponentProps> = (
             </div>
           </div>
           <div className="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
-            <div className="w-32 flex-shrink-0">
+            <div className="w-10 flex-shrink-0">
               <img src={product1} className="w-full" alt="product1" />
             </div>
             <div className="md:w-1/3 w-full">
@@ -56,7 +55,6 @@ export const CartComponent: React.FC<CartComponentProps> = (
               <p className="text-primary font-semibold">$300.00</p>
               <p className="text-gray-500">Size: M</p>
             </div>
-
             <div className="flex border border-gray-300 text-gray-600 divide-x divide-gray-300">
               <div className="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none">
                 -
@@ -112,7 +110,6 @@ export const CartComponent: React.FC<CartComponentProps> = (
             Apply
           </button>
         </div>
-
         <a
           href="/checkout"
           className="bg-primary border border-primary text-white px-4 py-3 font-medium rounded-md uppercase hover:bg-transparent

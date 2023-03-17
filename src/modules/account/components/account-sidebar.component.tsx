@@ -4,6 +4,7 @@ import {
   FaCreditCard,
   FaGift,
   FaHeart,
+  FaHome,
   FaPowerOff
 } from "react-icons/fa";
 import { UserNameComponent } from "./user-name.component";
@@ -101,6 +102,35 @@ export const AccountSidebarComponent: React.FC<AccountSidebarComponentProps> = (
               <FaHeart />
             </span>
             my wishlist
+          </a>
+        </div>
+        <div className="space-y-1 pl-8 pt-4">
+          <a
+            href="/admin-panel"
+            className="relative hover:text-primary block font-medium capitalize transition"
+          >
+            <span className="absolute -left-8 top-1 text-base">
+              <FaHome />
+            </span>
+            Admin Dashboard
+          </a>
+          <a
+            href="/add-product"
+            className="relative hover:text-primary block capitalize transition"
+          >
+            Add Product
+          </a>
+          <a
+            href="/all-products"
+            className="relative hover:text-primary block capitalize transition"
+          >
+            All Produts
+          </a>
+          <a
+            href="/user-list"
+            className="relative hover:text-primary block capitalize transition"
+          >
+            User List
           </a>
         </div>
         <div className="space-y-1 pl-8 pt-4">

@@ -12,7 +12,7 @@ export const ManageAccountComponent: React.FC<ManageAccountComponentProps> = (
           <h3 className="font-medium text-gray-800 text-lg">
             Personal profile
           </h3>
-          <a href="/" className="text-primary">
+          <a href="/profile-information" className="text-primary">
             Edit
           </a>
         </div>
@@ -27,7 +27,7 @@ export const ManageAccountComponent: React.FC<ManageAccountComponentProps> = (
           <h3 className="font-medium text-gray-800 text-lg">
             Shipping Address
           </h3>
-          <a href="/" className="text-primary">
+          <a href="/manage-address" className="text-primary">
             Edit
           </a>
         </div>
@@ -42,7 +42,7 @@ export const ManageAccountComponent: React.FC<ManageAccountComponentProps> = (
       <div className="shadow rounded bg-white px-4 pt-6 pb-8">
         <div className="flex justify-between items-center mb-4">
           <h3 className="font-medium text-gray-800 text-lg">Billing Address</h3>
-          <a href="/" className="text-primary">
+          <a href="/manage-address" className="text-primary">
             Edit
           </a>
         </div>
