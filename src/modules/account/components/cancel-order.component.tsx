@@ -1,5 +1,4 @@
 import React from "react";
-import { FaTrash } from "react-icons/fa";
 import product1 from "../../../assets/products/men01.jpg";
 import { AccountSidebarComponent } from "./account-sidebar.component";
 
@@ -15,52 +14,74 @@ export const CancelOrderComponent: React.FC<CancelOrderComponentProps> = (
       </div>
       <div className="col-span-9 space-y-4 mt-6 lg:mt-0">
         <div className="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
-          <div className="w-28 flex-shrink-0">
+          <div className="w-10 flex-shrink-0">
             <img src={product1} className="w-full" alt="wishlistProduct1" />
           </div>
-          <div className="w-full md:w-1/3">
-            <h2 className="text-gray-800 mb-1 text-lg xl:text-xl font-medium uppercase">
-              Mens Jacket
-            </h2>
-            <p className="text-gray-500 text-sm">
-              Availability: <span className="text-green-600">In Stock</span>
-            </p>
+          <div>
+            <h2 className="text-gray-600 font-semibold">Mens Jacket</h2>
           </div>
-          <div className="text-primary text-lg font-semibold">$300</div>
+          <div>
+            <p className="text-gray-600 font-semibold">Order Number</p>
+            <p className="text-gray-500">1234567</p>
+          </div>
+          <div>
+            <p className="text-gray-600 font-semibold">Purchased</p>
+            <p className="text-gray-500">14 Nov 22</p>
+          </div>
+          <div>
+            <p className="text-gray-600 font-semibold">Qut</p>
+            <p className="text-gray-500">x3</p>
+          </div>
+          <div>
+            <p className="text-gray-600 font-semibold">Total</p>
+            <p className="text-gray-500">$300</p>
+          </div>
+          <div>
+            <p className="text-gray-600 font-semibold">Status</p>
+            <p className="text-red-500">Cancelled</p>
+          </div>
           <a
             href="/order-details"
-            className="ml-auto md:ml-0 block px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded 
-          hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium"
+            className="px-6 py-2 text-center text-sm text-primary
+            bg-white border border-primary rounded hover:bg-primary hover:text-white transition font-roboto font-medium"
           >
-            Add to cart
+            View Order
           </a>
-          <div className="text-gray-600 cursor-pointer hover:text-primary">
-            <FaTrash />
-          </div>
         </div>
         <div className="flex items-center md:justify-between gap-4 md:gap-6 p-4 border border-gray-200 rounded flex-wrap md:flex-nowrap">
-          <div className="w-28 flex-shrink-0">
+          <div className="w-10 flex-shrink-0">
             <img src={product1} className="w-full" alt="wishlistProduct1" />
           </div>
-          <div className="w-full md:w-1/3">
-            <h2 className="text-gray-800 mb-1 text-lg xl:text-xl font-medium uppercase">
-              Mens Jacket
-            </h2>
-            <p className="text-gray-500 text-sm">
-              Availability: <span className="text-red-600">Out of Stock</span>
-            </p>
+          <div>
+            <h2 className="text-gray-600 font-semibold">Mens Jacket</h2>
           </div>
-          <div className="text-primary text-lg font-semibold">$300</div>
+          <div>
+            <p className="text-gray-600 font-semibold">Order Number</p>
+            <p className="text-gray-500">1234567</p>
+          </div>
+          <div>
+            <p className="text-gray-600 font-semibold">Purchased</p>
+            <p className="text-gray-500">14 Nov 22</p>
+          </div>
+          <div>
+            <p className="text-gray-600 font-semibold">Qut</p>
+            <p className="text-gray-500">x3</p>
+          </div>
+          <div>
+            <p className="text-gray-600 font-semibold">Total</p>
+            <p className="text-gray-500">$300</p>
+          </div>
+          <div>
+            <p className="text-gray-600 font-semibold">Status</p>
+            <p className="text-red-500">Cancelled</p>
+          </div>
           <a
-            href="/"
-            className="ml-auto md:ml-0 block px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded 
-          uppercase font-roboto font-medium cursor-not-allowed bg-opacity-80"
+            href="/order-details"
+            className="px-6 py-2 text-center text-sm text-primary
+            bg-white border border-primary rounded hover:bg-primary hover:text-white transition font-roboto font-medium"
           >
-            Add to cart
+            View Order
           </a>
-          <div className="text-gray-600 cursor-pointer hover:text-primary">
-            <FaTrash />
-          </div>
         </div>
       </div>
     </div>
