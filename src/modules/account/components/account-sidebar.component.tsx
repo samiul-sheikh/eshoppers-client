@@ -121,6 +121,12 @@ export const AccountSidebarComponent: React.FC<AccountSidebarComponentProps> = (
             Add Product
           </a>
           <a
+            href="/add-category"
+            className="relative hover:text-primary block capitalize transition"
+          >
+            Add Category
+          </a>
+          <a
             href="/all-products"
             className="relative hover:text-primary block capitalize transition"
           >

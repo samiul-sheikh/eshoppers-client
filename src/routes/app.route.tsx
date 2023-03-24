@@ -27,6 +27,7 @@ import { CheckoutPage } from "../modules/checkout/pages/checkout.page";
 import { MissingPagePage } from "../modules/core/pages/missing-page.page";
 import { AdminPanelPage } from "../modules/account/pages/admin-panel.page";
 import { AddProductPage } from "../modules/account/pages/add-product.page";
+import { AddCategoryPage } from "../modules/account/pages/add-category.page";
 import { AllProductsPage } from "../modules/account/pages/all-products.page";
 import { UserListPage } from "../modules/account/pages/user-list.page";
 
@@ -65,6 +66,7 @@ export const AppRoute: React.FC = () => {
       <Route path="/add-product" element={<AddProductPage />} />
       <Route path="/all-products" element={<AllProductsPage />} />
       <Route path="/user-list" element={<UserListPage />} />
+      <Route path="/add-category" element={<AddCategoryPage />} />
     </Routes>
   );
 };
